@@ -14,6 +14,7 @@
                 <input name="txDay" type="text"  maxlength="2" id="Day" title="Day"  onchange
                 ="document.getElementById('chkAutomateTime').checked=false;" style="width: 30px;" >
 
+                
             </td>
         </tr>
     </tbody>
