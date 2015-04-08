@@ -12,7 +12,9 @@ extract($_POST) ;
 
 $sql = "INSERT INTO daily_links (link_name , link_address , description) VALUES ('$link_name','$link_address','$description')" ;
 if($conn->query($sql) == TRUE){
-    echo "New record created successfully. <a href=\"/daily_links.php\">Back</a>";
+    echo "New record created successfully. <a href=\"/daily_links.php\">
+        <button value='Back' id='back_button' class='button'>Back</button>
+    </a>";
 }
 else {
     echo "Error: " . $sql . "<br>" . $conn->error ;

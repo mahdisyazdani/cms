@@ -16,7 +16,10 @@ extract($_POST);
 $sql = "INSERT INTO posts (title , body)VALUES ('$title', '$body')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully. <a href=\"/admin.php\">Back</a>";
+    echo "New record created successfully.
+    <a href=\"/admin.php\">
+        <button value='Back' id='back_button' class='button'>Back</button>
+    </a>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
