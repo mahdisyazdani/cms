@@ -17,36 +17,48 @@
     <div class="header">
 
     </div>
-    <a href="add_post.php">
-        <span class="glyphicon glyphicon-plus"></span>
-        Add Post
-    </a>
+    <div class="text-center">
+        <a href="add_post.php">
+            <span class="glyphicon glyphicon-plus"></span>
+            Add Post
+        </a>
 
-    <br/>
-    <span>
-      <small> Spread or record new new document in blog </small>
-    </span>
-    <br/>
-    <br/>
-    <a href="daily_links.php">
-        <span class="glyphicon glyphicon-link"></span>
-        Daily Links
-    </a>
-    <br/>
-    <span>
-      <small>Record new daily link or edit the daily links</small>
-    </span>
-    <br/>
-    <br/>
-    <a href="blog_links.php">
-        <span class="glyphicon glyphicon-link"></span>
-        Blog Links
-    </a>
-    <br/>
-    <span>
-      <small>Record new link or edit the fixed blog links (friends blog or favorite sites, ...)</small>
-    </span>
-    <br/>
+        <br/>
+        <span>
+          <small> <p class="text-muted">Spread or record new new document in blog </p> </small>
+        </span>
+        <br/>
+        <br/>
+        <a href="observe_blog.php">
+            <span class="glyphicon glyphicon-eye-open"></span>
+            Observe Blog
+        </a>
+        <br/>
+        <span>
+            <small><p class="text-muted">Observe the home page...</p></small>
+        </span>
+        <br/>
+        <br/>
+        <a href="daily_links.php">
+            <span class="glyphicon glyphicon-link"></span>
+            Daily Links
+        </a>
+        <br/>
+        <span>
+          <small><p class="text-muted">Record new daily link or edit the daily links</p></small>
+        </span>
+        <br/>
+        <br/>
+        <a href="blog_links.php">
+            <span class="glyphicon glyphicon-link"></span>
+            Blog Links
+        </a>
+        <br/>
+        <span>
+          <small><p class="text-muted">Record new link or edit the fixed blog links (friends blog or favorite sites, ...)</p></small>
+        </span>
+        <br/>
+    </div>
     <div class="footer">
 
     </div>

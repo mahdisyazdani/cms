@@ -1,0 +1,106 @@
+@import url ( 'reset.css' ) ;
+@import url ( '960.css') ;
+*{
+    font-family:tahoma;
+    font-size: 15px;
+}
+body{
+	background:#E498AF;
+	margin:0;
+}
+#header {
+	background : url("back.jpg") ;
+	background-size:100% 100%;
+	background-repeat:no-repeat ;
+	height : 100px ; 
+	width : 100% ;
+	text-align :center ;
+	padding-top : 80px ; 
+	direction:ltr 
+}
+#body {
+	background : #E498AF ;
+	height : 445px ; 
+	width : 100% ;
+	border:5px solid #E498AF ; 
+}
+#nav{
+    background:#E498AF;
+    width:100%;
+    border:5px solid #E498AF;
+    text-align:center;
+	padding-right:100px;
+}
+#nav a{
+    margin-right:5px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    padding-right:20px;
+}
+#nav a:hover{
+    color:pink;
+    text-shadow:1px 1px 1px #000;
+}
+.post{
+	background:url("post.jpg") center;
+	background-repeat:no-repeat ;
+	background-color:#E498AF ; 
+	border:5px solid #E498AF;
+	padding-right:100px;
+	width:60%;
+	height:500px;
+	text-align:center ;
+	float: right;
+ }
+ 
+ .post p{
+	font-size:15px;
+	text-align:center;
+	padding-left:100px;
+ }
+ 
+ .post a{
+	text-decoration:none;
+	color:black;
+ }
+ 
+ .post h1{
+	text-align:center;
+	padding-left:100px;
+ }
+ 
+#footer {
+	font-size:5px;
+	text-align:left;
+	color:black;
+	padding-left:300px;
+}
+# author , # archive , # links , # Blog-Categories  {
+	text-align:center;
+	color:white;
+	text-decoration:none;
+
+}
+.block{
+	text-align:center;
+	border:5px solid white;
+	margin-bottom:5px;
+}
+.block  h1{
+	color:purple;
+}
+.block a {
+	color:white;
+	text-decoration:none;
+}
+
+.block a:hover {
+	color:pink;
+    text-shadow:1px 1px 1px #000;
+}
+
+
+#left-block{
+	width:31.5%;
+}
