@@ -18,7 +18,7 @@
 
 <body>
 <div id='nav'>
-    <a href="file:///C:/Users/mehdi/Desktop/html/ghaleb%20weblog/blog.html">Home</a>
+    <a href="http://localhost/mahdis/observe_blog.php">Home</a>
     <a href="#"> About us</a>
     <a href="#some-where">Some link</a>
 </div>
@@ -26,7 +26,7 @@
     <?php include 'post_observe_blog.php' ;  ?>
     <h1><?php echo "". $blog_title ;?></h1>
     <?php
-        for($x = $index ; $x >= 0 ; $x--){ ?>
+        for($x = $index ; $x > 0 ; $x--){ ?>
             <p class="bg-danger"><?php echo "".$row[$x]["title"] ;?></p>
             <p><?php echo "".$row[$x]["body"] ;?></p>
             <div id='footer'>
@@ -49,7 +49,7 @@
     <div id='widge' class="block">
 
         <div id='profilePic'>
-            <img src="profile.jpg" alt="My name">
+            <img src="css\profile.jpg" alt="My name">
         </div>
 
         <h1>My Information</h1>
@@ -72,9 +72,13 @@
 
     <div id='links' class="block">
         <h1>Related Links</h1>
-        <a href="#">Link 1</a>
-        <br>
-        <a href="#">Link 2</a>
+        <?php
+        for($x = $index1 ; $x > 0 ; $x--){ ?>
+            <a href="<?php echo "".$row1[$x]["link_address"] ;?>"><?php echo "".$row1[$x]["link_title"] ;?></a>
+            <br/>
+        <?php }
+        ?>
+
     </div>
     <div id='Blog-Categories' class="block">
         <h1>blog categories</h1>
@@ -83,12 +87,7 @@
         <a href="#">This</a><br>
         <a href="#">This</a><br>
     </div>
-    <div id='chat-box' class="block">
-        <h1>Chat ( 0 )</h1>
-    </div>
-    <div id='message' class="block">
-        <textarea></textarea>
-    </div>
+
 </div>
 <div id='body'></div>
 </body>

@@ -21,4 +21,13 @@
             $index = $index + 1 ;
         }
     }
+
+    $sql = "SELECT * FROM blog_links" ;
+    $result1 = $conn->query($sql) ;
+    $index1 = 0 ;
+    if($result1->num_rows > 0) {
+        while($row1[$index1] = $result1->fetch_assoc()){
+            $index1 = $index1 + 1 ;
+        }
+     }
 $conn->close() ;

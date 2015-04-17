@@ -9,7 +9,7 @@ body{
 	margin:0;
 }
 #header {
-	background : url("back.jpg") ;
+	background : url("back.gif") ;
 	background-size:100% 100%;
 	background-repeat:no-repeat ;
 	height : 100px ; 
@@ -43,7 +43,7 @@ body{
     text-shadow:1px 1px 1px #000;
 }
 .post{
-	background:url("post.jpg") center;
+	background:url("css/post.jpg") center;
 	background-repeat:no-repeat ;
 	background-color:#E498AF ; 
 	border:5px solid #E498AF;
@@ -75,12 +75,6 @@ body{
 	text-align:left;
 	color:black;
 	padding-left:300px;
-}
-# author , # archive , # links , # Blog-Categories  {
-	text-align:center;
-	color:white;
-	text-decoration:none;
-
 }
 .block{
 	text-align:center;
